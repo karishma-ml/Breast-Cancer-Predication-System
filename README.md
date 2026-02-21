@@ -7,7 +7,7 @@ Developed a secure, end-to-end Breast Cancer Prediction Web Application using th
 - 🎯 Risk Prediction: Multi-model machine learning approach for accurate breast cancer classification and probability-based risk assessment.
 - 📈 Clinical Insights: Detailed performance evaluation including accuracy comparison, confusion matrix, and feature importance analysis for medical interpretability.
 
-## Technology Stack
+## Technology Stack:
 ## Machine Learning:
 - Scikit-learn
 - Logistic Regression
