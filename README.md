@@ -8,7 +8,7 @@ Developed a secure, end-to-end Breast Cancer Prediction Web Application using th
 - 📈 Clinical Insights: Detailed performance evaluation including accuracy comparison, confusion matrix, and feature importance analysis for medical interpretability.
 
 ## Technology Stack
-# Machine Learning:
+## Machine Learning:
 - Scikit-learn
 - Logistic Regression
 - Random Forest
@@ -17,7 +17,7 @@ Developed a secure, end-to-end Breast Cancer Prediction Web Application using th
 - Multi-Layer Perceptron (MLP)
 - Decision Tree
 
-# Report Generation:
+## Report Generation:
 - ReportLab (PDF generation)
 
 ##  Disclaimer
