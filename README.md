@@ -1,4 +1,4 @@
-# Breast-Cancer-Predication-System
+# Breast_Cancer_Predication_System
 Developed a secure, end-to-end Breast Cancer Prediction Web Application using the Breast Cancer Coimbra Dataset .The system integrates multiple supervised machine learning models with feature scaling and performance comparison to enable real-time medical risk prediction.
 
 ## Features 
