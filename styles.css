@@ -1,0 +1,156 @@
+/* APP BACKGROUND */
+.stApp {
+    background-image: url("https://i.imgur.com/UPkvBMe.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Reduce top spacing */
+.block-container {
+    padding-top: 1rem ;
+}
+
+/* Option menu styling */
+ul.nav.nav-pills {
+    background: rgba(255,255,255,0.96) ;
+    padding: 14px 18px ;
+    border-radius: 22px ;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.18) ;
+    display: flex ;
+    justify-content: space-around ;
+}
+
+ul.nav.nav-pills li a.active {
+    background: linear-gradient(135deg, #c72da3, #ff7a7a) ;
+    color: #fff ;
+}
+
+
+/* FIX EXTRA TOP SPACE (SAFE)*/
+.block-container {
+    padding-top: 0.8rem ;
+}
+
+/*  REMOVE ONLY STREAMLIT SEPARATORS (SAFE) */
+hr, .stDivider {
+    display: none ;
+}
+
+/* REMOVE EMPTY HORIZONTAL BLOCKS (SAFE) */
+div[data-testid="stHorizontalBlock"] {
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+    background: transparent ;
+}
+
+/* OPTION MENU – HORIZONTAL NAV (WORKING) */
+ul.nav.nav-pills {
+    background: rgba(255, 255, 255, 0.96) ;
+    padding: 14px 18px ;
+    border-radius: 22px ;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.18) ;
+    display: flex ;
+    justify-content: space-around ;
+    align-items: center ;
+    margin-bottom: 24px ;
+}
+
+ul.nav.nav-pills li {
+    margin: 0 6px ;
+}
+
+ul.nav.nav-pills li a {
+    display: flex ;
+    align-items: center ;
+    gap: 8px ;
+    padding: 10px 22px ;
+    font-size: 0.95rem ;
+    font-weight: 700 ;
+    color: #374151 ;
+    border-radius: 16px ;
+    transition: all 0.3s ease ;
+}
+
+ul.nav.nav-pills li a:hover {
+    background: rgba(255, 77, 77, 0.15) ;
+    transform: translateY(-2px);
+}
+
+ul.nav.nav-pills li a.active {
+    background: linear-gradient(135deg, #da327e, #ff7a7a) ;
+    color: #ffffff ;
+    box-shadow: 0 10px 24px rgba(227, 63, 169, 0.45) ;
+}
+
+ul.nav.nav-pills li a svg {
+    width: 18px ;
+    height: 18px ;
+}
+
+/* TEXT */
+h1, h2, h3, h4, h5, h6 {
+    color: #1f2937 ;
+    font-weight: 800;
+}
+
+p, label, .stMarkdown {
+    color: #374151 ;
+    font-weight: 600;
+}
+
+/* BUTTONS */
+.stButton button {
+    background: linear-gradient(135deg, #eb2dbb, #d9278f);
+    color: #ffffff ;
+    border: none;
+    padding: 0.65rem 1.6rem;
+    border-radius: 14px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+/* INPUTS */
+input, select, textarea {
+    background: rgba(255,255,255,0.97) ;
+    border-radius: 12px ;
+    border: 1.6px solid #f4a7b9 ;
+    color: #1f2937 ;
+    padding: 10px ;
+}
+
+/* CARDS */
+.card {
+    background: rgba(255,255,255,0.94);
+    backdrop-filter: blur(10px);
+    border-left: 6px solid #dc3cb4;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0 14px 36px rgba(0,0,0,0.18);
+    margin-bottom: 22px;
+}
+
+/* LOGIN BOX */
+.login-box {
+    background: rgba(255,255,255,0.95);
+    padding: 28px;
+    border-radius: 22px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.22);
+    max-width: 420px;
+    margin: auto;
+}
+
+/* REMOVE ONLY SLIDER OVAL / FOCUS RING */
+.stSlider [role="slider"],
+.stSlider [role="slider"]:focus,
+.stSlider [role="slider"]:active {
+    outline: none ;
+    box-shadow: none ;
+    border: none ;
+}
+
+.stSlider * {
+    box-shadow: none ;
+}
+
